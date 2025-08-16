@@ -1,0 +1,32 @@
+.header {
+  background-color: #000;
+
+}
+
+.header__inner {
+  max-width: 1230px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.header__logo {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+
+  font-weight: bold;
+}
+
+.header_nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 13px;
+}
